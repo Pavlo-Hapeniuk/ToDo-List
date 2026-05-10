@@ -1,0 +1,82 @@
+*,
+*::before *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: #212121;
+  background-color: #fff;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+ol,
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.todo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.todo-input {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 50px 0;
+  outline: none;
+  border: 2px #472121 solid;
+  border-radius: 5px;
+}
+
+.todo-add-button {
+  width: 100px;
+  color: #fff;
+  background-color: blue;
+  padding: 14px 15px;
+  border-radius: 5px;
+}
+
+.todo-list {
+  padding: 10px 200px;
+}
+
+.todo-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 20px;
+}
+
+.todo-delete-button {
+  width: 100px;
+  color: #fff;
+  background-color: red;
+  padding: 14px 15px;
+  border-radius: 5px;
+}
